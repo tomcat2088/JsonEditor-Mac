@@ -1,0 +1,14 @@
+{
+  "name": "jsoneditor-mac",
+  "version": "1.0.0",
+  "description": "json editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsoneditor": "^5.1.2"
+  }
+}

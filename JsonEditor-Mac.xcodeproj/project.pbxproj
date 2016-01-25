@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E7885EC1C55EB5C0066BCA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7885EB1C55EB5C0066BCA2 /* AppDelegate.m */; };
+		8E7885EF1C55EB5C0066BCA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7885EE1C55EB5C0066BCA2 /* main.m */; };
+		8E7885F21C55EB5C0066BCA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7885F11C55EB5C0066BCA2 /* ViewController.m */; };
+		8E7885F51C55EB5C0066BCA2 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7885F41C55EB5C0066BCA2 /* Document.m */; };
+		8E7885F71C55EB5C0066BCA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E7885F61C55EB5C0066BCA2 /* Assets.xcassets */; };
+		8E7885FA1C55EB5C0066BCA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7885F81C55EB5C0066BCA2 /* Main.storyboard */; };
+		8E7886021C55ECE60066BCA2 /* web in Resources */ = {isa = PBXBuildFile; fileRef = 8E7886011C55ECE60066BCA2 /* web */; };
+		8E7886041C55F2760066BCA2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7886031C55F2760066BCA2 /* WebKit.framework */; };
+		8E7886061C55F8C60066BCA2 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7886051C55F8C60066BCA2 /* JavaScriptCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E7885E71C55EB5C0066BCA2 /* JsonEditor-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JsonEditor-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7885EA1C55EB5C0066BCA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E7885EB1C55EB5C0066BCA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E7885EE1C55EB5C0066BCA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E7885F01C55EB5C0066BCA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E7885F11C55EB5C0066BCA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E7885F31C55EB5C0066BCA2 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		8E7885F41C55EB5C0066BCA2 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		8E7885F61C55EB5C0066BCA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E7885F91C55EB5C0066BCA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E7885FB1C55EB5C0066BCA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E7886011C55ECE60066BCA2 /* web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = web; sourceTree = "<group>"; };
+		8E7886031C55F2760066BCA2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		8E7886051C55F8C60066BCA2 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E7885E41C55EB5C0066BCA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7886061C55F8C60066BCA2 /* JavaScriptCore.framework in Frameworks */,
+				8E7886041C55F2760066BCA2 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E7885DE1C55EB5C0066BCA2 = {
+			isa = PBXGroup;
+			children = (
+				8E7886051C55F8C60066BCA2 /* JavaScriptCore.framework */,
+				8E7886031C55F2760066BCA2 /* WebKit.framework */,
+				8E7885E91C55EB5C0066BCA2 /* JsonEditor-Mac */,
+				8E7885E81C55EB5C0066BCA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E7885E81C55EB5C0066BCA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E7885E71C55EB5C0066BCA2 /* JsonEditor-Mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E7885E91C55EB5C0066BCA2 /* JsonEditor-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				8E7886011C55ECE60066BCA2 /* web */,
+				8E7885EA1C55EB5C0066BCA2 /* AppDelegate.h */,
+				8E7885EB1C55EB5C0066BCA2 /* AppDelegate.m */,
+				8E7885F01C55EB5C0066BCA2 /* ViewController.h */,
+				8E7885F11C55EB5C0066BCA2 /* ViewController.m */,
+				8E7885F31C55EB5C0066BCA2 /* Document.h */,
+				8E7885F41C55EB5C0066BCA2 /* Document.m */,
+				8E7885F61C55EB5C0066BCA2 /* Assets.xcassets */,
+				8E7885F81C55EB5C0066BCA2 /* Main.storyboard */,
+				8E7885FB1C55EB5C0066BCA2 /* Info.plist */,
+				8E7885ED1C55EB5C0066BCA2 /* Supporting Files */,
+			);
+			path = "JsonEditor-Mac";
+			sourceTree = "<group>";
+		};
+		8E7885ED1C55EB5C0066BCA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E7885EE1C55EB5C0066BCA2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E7885E61C55EB5C0066BCA2 /* JsonEditor-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E7885FE1C55EB5C0066BCA2 /* Build configuration list for PBXNativeTarget "JsonEditor-Mac" */;
+			buildPhases = (
+				8E7885E31C55EB5C0066BCA2 /* Sources */,
+				8E7885E41C55EB5C0066BCA2 /* Frameworks */,
+				8E7885E51C55EB5C0066BCA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JsonEditor-Mac";
+			productName = "JsonEditor-Mac";
+			productReference = 8E7885E71C55EB5C0066BCA2 /* JsonEditor-Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E7885DF1C55EB5C0066BCA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wangyang;
+				TargetAttributes = {
+					8E7885E61C55EB5C0066BCA2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 8E7885E21C55EB5C0066BCA2 /* Build configuration list for PBXProject "JsonEditor-Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E7885DE1C55EB5C0066BCA2;
+			productRefGroup = 8E7885E81C55EB5C0066BCA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E7885E61C55EB5C0066BCA2 /* JsonEditor-Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E7885E51C55EB5C0066BCA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7886021C55ECE60066BCA2 /* web in Resources */,
+				8E7885F71C55EB5C0066BCA2 /* Assets.xcassets in Resources */,
+				8E7885FA1C55EB5C0066BCA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E7885E31C55EB5C0066BCA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7885F51C55EB5C0066BCA2 /* Document.m in Sources */,
+				8E7885F21C55EB5C0066BCA2 /* ViewController.m in Sources */,
+				8E7885EF1C55EB5C0066BCA2 /* main.m in Sources */,
+				8E7885EC1C55EB5C0066BCA2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E7885F81C55EB5C0066BCA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E7885F91C55EB5C0066BCA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E7885FC1C55EB5C0066BCA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8E7885FD1C55EB5C0066BCA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8E7885FF1C55EB5C0066BCA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "JsonEditor-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ocean.JsonEditor-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E7886001C55EB5C0066BCA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "JsonEditor-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ocean.JsonEditor-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E7885E21C55EB5C0066BCA2 /* Build configuration list for PBXProject "JsonEditor-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7885FC1C55EB5C0066BCA2 /* Debug */,
+				8E7885FD1C55EB5C0066BCA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E7885FE1C55EB5C0066BCA2 /* Build configuration list for PBXNativeTarget "JsonEditor-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7885FF1C55EB5C0066BCA2 /* Debug */,
+				8E7886001C55EB5C0066BCA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E7885DF1C55EB5C0066BCA2 /* Project object */;
+}
