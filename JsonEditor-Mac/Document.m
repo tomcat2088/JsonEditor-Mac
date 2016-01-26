@@ -7,6 +7,7 @@
 //
 
 #import "Document.h"
+#import "ViewController.h"
 
 @interface Document ()
 
@@ -38,6 +39,9 @@
 
 -(BOOL)writeToURL:(NSURL *)url ofType:(NSString *)typeName forSaveOperation:(NSSaveOperationType)saveOperation originalContentsURL:(NSURL *)absoluteOriginalContentsURL error:(NSError * _Nullable __autoreleasing *)outError
 {
+    NSWindowController* controller = self.windowControllers[0];
+  NSString* result = [(ViewController*)(controller.contentViewController) save];
+    [result writeToURL:url atomically:YES encoding:NSUTF8StringEncoding error:nil];
     return YES;
 }
 

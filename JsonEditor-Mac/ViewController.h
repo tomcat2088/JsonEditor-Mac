@@ -12,6 +12,6 @@
 @interface ViewController : NSViewController <WebFrameLoadDelegate>
 @property (strong) IBOutlet WebView *webView;
 
-
+- (NSString*)save;
 @end
 

@@ -32,15 +32,13 @@
     NSURL* fileURL = [NSURL fileURLWithPath:filePath];
     NSURLRequest* request = [NSURLRequest requestWithURL:fileURL];
     [[self.webView mainFrame] loadRequest:request];
-    
-
 }
 
-
-- (void)webView:(WebView *)sender didFinishLoadForFrame:(WebFrame *)frame
+- (NSString*)save
 {
-        JSValue* result = [[self.webView mainFrame].javaScriptContext evaluateScript:@"saveToString()"];
-   NSDictionary* jsonDic = [result toDictionary];
+    NSDictionary* result = [[[[self.webView mainFrame] javaScriptContext] evaluateScript:@"saveToString()"] toDictionary];
+    NSData* data = [NSJSONSerialization dataWithJSONObject:result options:NSJSONWritingPrettyPrinted error:nil];
+    return [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
 }
 
 @end
